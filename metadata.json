@@ -1,0 +1,6 @@
+{
+  "name": "Apna Supaul",
+  "description": "आपका अपना लोकल डिजिटल प्लेटफॉर्म — एक ऐप, अनेक सुविधाएं: लोकल न्यूज़, बैंकिंग एवं डिजिटल सर्विस, सरकारी नौकरी एवं रिजल्ट, लोकल बिजनेस डायरेक्टरी और विज्ञापन एवं प्रमोशन।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

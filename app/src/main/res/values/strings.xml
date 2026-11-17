@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Apna Supaul</string>
+    <string name="brand_title">APNA SUPAUL</string>
+    <string name="brand_subtitle">आपका अपना लोकल डिजिटल प्लेटफॉर्म</string>
+    <string name="brand_tagline">एक ऐप, अनेक सुविधाएं।</string>
+    <string name="district_badge">सुपौल जिला, बिहार</string>
+
+    <!-- Main 5 Categories -->
+    <string name="cat_local_news">लोकल न्यूज़</string>
+    <string name="cat_local_news_desc">सुपौल और सभी प्रखंडों की ताज़ा खबरें, मंडी भाव व प्रशासनिक सूचना</string>
+
+    <string name="cat_banking_digital">बैंकिंग एवं डिजिटल सर्विस</string>
+    <string name="cat_banking_digital_desc">CSC सेवाएं, आधार-पैन, RTPS प्रमाण पत्र, बैंक शाखा व IFSC</string>
+
+    <string name="cat_govt_jobs">सरकारी नौकरी एवं रिजल्ट</string>
+    <string name="cat_govt_jobs_desc">ताज़ा भर्ती, एडमिट कार्ड, मेरिट लिस्ट व परीक्षा अलर्ट</string>
+
+    <string name="cat_business_dir">लोकल बिजनेस डायरेक्टरी</string>
+    <string name="cat_business_dir_desc">दुकानें, अस्पताल, कोचिंग, होटल व स्थानीय संपर्क नंबर</string>
+
+    <string name="cat_ads_promo">विज्ञापन एवं प्रमोशन</string>
+    <string name="cat_ads_promo_desc">अपना व्यापार बढ़ाएं, लोकल ऑफर देखें व विज्ञापन बुक करें</string>
+
+    <!-- Bottom Nav Tabs -->
+    <string name="nav_home">होम</string>
+    <string name="nav_search">खोजें</string>
+    <string name="nav_saved">सहेजे गए</string>
+    <string name="nav_services">जोड़ें / मदद</string>
+
+    <!-- Common Actions & Labels -->
+    <string name="search_hint">खोजें: न्यूज़, नौकरी, दुकान, बैंक…</string>
+    <string name="action_back">वापस जाएं</string>
+    <string name="action_share">शेयर करें</string>
+    <string name="action_bookmark">सहेजें</string>
+    <string name="action_remove_bookmark">हटाएं</string>
+    <string name="action_call">कॉल करें</string>
+    <string name="action_open_portal">पोर्टल खोलें</string>
+    <string name="action_copy_ifsc">IFSC कॉपी करें</string>
+    <string name="today_highlights">आज की मुख्य झलकियां</string>
+    <string name="all_categories_header">मुख्य सेवाएं और श्रेणियां</string>
+    <string name="emergency_helpline">आपातकालीन एवं जिला हेल्पलाइन</string>
+    <string name="empty_saved_title">अभी कोई आइटम सहेजा नहीं गया</string>
+    <string name="empty_saved_desc">अपनी पसंदीदा न्यूज़, सरकारी नौकरी या लोकल बिजनेस को बुकमार्क करें ताकि वे यहाँ दिखें।</string>
+    <string name="empty_search_title">कोई परिणाम नहीं मिला</string>
+    <string name="empty_search_desc">कृपया दूसरा शब्द या श्रेणी चुनकर दोबारा खोजें।</string>
+</resources>
