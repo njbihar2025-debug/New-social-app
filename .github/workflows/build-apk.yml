@@ -4,6 +4,9 @@ on:
   push:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build-apk:
     runs-on: ubuntu-latest
@@ -51,11 +54,22 @@ jobs:
           gradle-version: '9.3.1'
 
       - name: Build Debug APK
-        run: gradle :app:assembleDebug --no-daemon --stacktrace -Dorg.gradle.jvmargs="-Xmx3g -Dfile.encoding=UTF-8"
+        run: |
+          gradle :app:assembleDebug --no-daemon --stacktrace -Dorg.gradle.jvmargs="-Xmx3g -Dfile.encoding=UTF-8"
+          cp app/build/outputs/apk/debug/app-debug.apk ApnaSupaul-debug.apk
 
-      - name: Upload Apna Supaul APK
+      - name: Upload Apna Supaul APK Artifact
         uses: actions/upload-artifact@v4
         with:
           name: apna-supaul-debug-apk
-          path: app/build/outputs/apk/debug/app-debug.apk
+          path: ApnaSupaul-debug.apk
           if-no-files-found: error
+
+      - name: Publish Direct APK to GitHub Releases
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: apk-v1.${{ github.run_number }}
+          name: Apna Supaul APK (v1.${{ github.run_number }})
+          body: Direct downloadable Android APK for Apna Supaul. Tap ApnaSupaul-debug.apk below to download and install.
+          files: ApnaSupaul-debug.apk
+          make_latest: true
